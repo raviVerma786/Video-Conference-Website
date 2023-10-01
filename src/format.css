@@ -1,0 +1,16 @@
+.myShadow{
+    text-shadow: 2px 2px 2px black ;
+}
+
+.myBoxShadow{
+    box-shadow: 1px 1px 1px black;
+}
+
+@media screen and (max-width : 560px) {
+    .myShow{
+        display: none;
+    }
+    .bigHead{
+        font-size: 35px;
+    }
+}
